@@ -1,0 +1,62 @@
+.formContainer{
+    padding:45px 25px;
+    margin-top:80px;
+    margin-left: 460px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    width:600px;
+    height:fit-content;
+    border: 1px solid #4CAF50;;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.formContainer > input[type = text]{
+    margin:10px;
+    padding:0 40px;
+    width:450px;
+    height:50px;
+    margin-left:20px;
+    border:0.5px solid #65ea6a;
+    border-radius: 15px;
+} 
+
+.formContainer > input[type = text]:focus{
+    outline-color: #65ea6a;
+}
+
+.formContainer > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+}
+
+
+
+.formContainer > button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color:white;
+    width:350px;
+    height:50px;
+    margin-top :40px;
+    border-radius: 10px;
+    background-color:#108c14;
+    border:0.5px solid #048e09;
+}
+
+.formContainer > button:hover{
+    background-color: #0ac110;
+    cursor: pointer;
+}
+
+
+.formContainer > pre {
+    margin:20px;   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    color:#054098;
+}
